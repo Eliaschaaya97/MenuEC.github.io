@@ -1,0 +1,285 @@
+head {
+   display: none;/* sebte */
+   }
+   
+   body {
+      display:inline;
+      margin: 0;
+      font-size: 21px;
+      font-family:'Times New Roman', Times, serif;
+      background: url(ppp.jpeg)  no-repeat center fixed;
+      padding-top: 70px; 
+     
+   }
+   
+   .custom-bg {
+      background-color:rgba(255, 255, 255, 0.721);
+      
+      
+    }
+    
+    
+    .navbar.fixed-top {
+      position: sticky; 
+      top: 0;
+      width: 100%; 
+      z-index: 100; 
+    }
+    
+
+ 
+   h1 {
+      
+      font-size: 45px;
+      font-variant:small-caps;
+      margin-top: 5px;
+      margin-bottom: 0px;
+      text-align: center;
+      color:rgba(255, 255, 255, 0.947);;
+      
+      text-shadow: 15px 15px 15px rgb(43, 41, 41);/* khyela */
+   }
+   #kkk{
+      color: rgb(233, 140, 18);
+   }
+ 
+   
+   .container {
+   padding-right: 30px;
+   padding-left: 30px;
+   margin-right: auto;
+   margin-left: auto;
+   }
+   
+   .text-center {
+   text-align:center;/* header(Fady's pizza)*/
+   }
+   
+   
+   header {
+      width: 100%;
+      height: auto;
+      display: block;
+      color: rgba(255, 255, 255, 0.563);
+      
+   }
+   
+   .head-main {
+      text-shadow: 2px 4px 5px black;
+      font-variant: small-caps;
+      letter-spacing: 3pt;
+      word-spacing: 18pt;
+      font-size: 4.5em;
+      text-align: left;
+      line-height: 1.2;
+      font-weight: 500;
+      
+      padding: 10px;
+   }
+   
+  
+   
+   #menu-all {
+  
+      width: 650px;
+      margin: 0% auto;
+      padding: 1px 0px;
+   }
+   
+   #form {
+      margin: 0% auto;
+      width: 600px;
+      border-radius: 25px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: stretch;
+    
+   }
+   
+   .menu-item {
+      font-size: 18px;
+      flex: 1 150px;/* shaklon, bel tadaroj*/
+      min-width: 0;
+      border: 3px solid #fff;
+      box-shadow: 0 0 0 2px rgba(0,0,0, 0.3);
+      padding: 0 0 10px 0;
+      margin: 3px;
+      border-radius: 9px;
+      background-color: rgba(255, 255, 255, 0.721);
+     
+   }
+   
+   .menu-item>h2 {
+      color: whitesmoke;
+      padding: 0 0 0 54px;
+      margin: 0 auto;
+      background-color:rgba(6, 5, 5, 0.646);
+      text-shadow: 1.5px 1.5px 5px #000, 1px 1px 5px #000;
+   }
+    
+
+   
+   .controls {
+      display: flex;
+      margin: 10px auto 30px;
+      width: 450px;
+   }
+   
+   .button { 
+      cursor:auto;
+      background-color: rgba(6, 5, 5, 0.646);
+      color: #fff;
+      width: 100%;
+      display:block;
+      text-decoration:dotted ;
+     
+      border-radius: 12px;
+      margin: 1% 3px;
+      padding: .1px 0 .1px 0px;
+      font: 18px;
+      border: 2px solid #fff;
+      box-shadow: 0 0 0 1px rgba(7, 7, 7, 0.3);   
+   }
+   
+   .button{
+      text-align: center;
+      font-weight:500;/* lkhat tabaa l place order and cancel*/
+   }
+   
+   .button:hover {
+      font: 18px;
+      font-weight: 500;
+      color: black;
+      background-color: rgba(248, 243, 242, 0.8) ;
+      box-shadow: 0 0 0 0.1px rgba(0,0,0,.3);
+   }
+   
+   
+   
+   #cart {
+      opacity: 0;/*khyela, l aatme */
+      margin: 15px auto;/*ede bteb3od aan l place order*/
+      width: 600px;
+   display: flex;
+   flex-wrap:wrap;/*shakla lal box (fetoura)*/
+   flex-direction:row;
+      background-color: rgba(255, 255, 255, 0.721);
+      border: 3px solid #fff;
+      box-shadow: 0 0 0 2px rgba(0,0,0,.3);
+      border-radius: 12px;
+   }
+   
+   #head1 {
+      color:White;
+      flex: 0 250px;
+      height: 50px;
+
+      width: 250px;
+      padding: 0 0 0px 0px;
+      background-color: rgba(6, 5, 5, 0.646);
+      text-shadow: 1.5px 1.5px 5px #000, 1px 1px 5px #000;
+   }
+   
+   
+   #head2 {
+      color: #fff;
+      flex: 1 250px;
+      height: 50px;
+      width: 250px;
+      padding: 0 0 0px 10px;
+      background-color: rgba(6, 5, 5, 0.646);
+      text-shadow: 1.5px 1.5px 5px #000, 1px 1px 5px #000;
+   }
+   
+   #showText1 {
+      font-size: 24px;
+      flex: 1 250px;
+      padding: 1px 0 10px 10px;
+      width: 250px;
+      border-radius: 0 0 0 0;
+   }
+   
+   #showText2 {
+      font-size: 21px;
+      flex: 1 250px;
+      padding: 1px 0 10px 10px;
+      width: 250px;
+      border-radius: 0 0 0 0;
+   }
+   
+   #totalPrice1 {
+      flex: 1 250px;
+      width: 250px;
+      border-radius: 0 0 0 0;
+      text-align: right;
+   }
+   
+   #totalPrice2 {
+      flex: 1 250px;
+      font-weight: 500;
+      padding: 20px 0 10px 10px;
+      width: 250px;
+      border-radius: 0 0 0 0;
+      font-size: 26px;
+   }
+  
+
+
+   .contact-section{
+ background-size: cover;
+ padding: 40px 0;
+}
+
+.contact-form{
+ max-width: 600px;
+ margin: auto;
+ padding: 0 10px;
+ overflow: hidden;
+ 
+}
+
+.contact-form-text{
+ display: block;
+ width: 100%;
+ box-sizing: border-box;
+ margin: 16px 0;
+ border: 0;
+ background: rgba(255, 255, 255, 0.721);
+ padding: 20px 40px;
+ outline: none;
+ color: black;
+
+}
+
+
+textarea.contact-form-text{
+ resize: none;
+ height: 120px;
+
+}
+.contact-form-btn{
+ float: right;
+ border: 0;
+ background: rgba(255, 255, 255, 0.721);
+ color: black;
+ padding: 12px 50px;
+ border-radius: 20px;
+ cursor: pointer;
+ transition: 0.5s;
+ border-color: white;
+ font-size: 21px;
+ 
+}
+.contact-form-btn:hover{
+ background: rgba(255, 68, 0, 0.714);
+ color: black;
+}
+
+.footer{
+color: #000;
+background-color: rgba(255, 255, 255, 0.721);
+font-size: large;
+margin: auto;
+}
